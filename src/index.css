@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Doodle+Shadow&family=Sacramento&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Satisfy&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-istok-web: "Istok Web", system-ui, sans-serif;
+  --font-cascadia-code: "Cascadia Code", monospace;
+  --font-rubik-doodle-shadow: "Rubik Doodle Shadow", system-ui, sans-serif;
+  --font-sansation: "Sansation", system-ui, sans-serif;
+  --font-sacramento: "Sacramento", system-ui, sans-serif;
+  --font-satisfy: "Satisfy", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes shootingStarAnimation {
+    0% {
+      transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(500px) translateY(500px);
+      opacity: 0;
+    }
+  }
+}
+
+@layer components {
+  .bg-purple-gradient {
+    @apply fixed min-h-screen bg-linear-to-br from-[#0B0314] via-[#16062B] to-[#2A0B4F];
+  }
+  .animate-shooting-star {
+    animation: shootingStarAnimation 1s forwards;
+  }
+}
+
+@layer utilities {
+}
