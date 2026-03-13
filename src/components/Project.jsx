@@ -59,7 +59,12 @@ const Project = () => {
                     {proj.framework}
                   </p>
                   <p className="mb-4">{proj.description}</p>
-                  <a href={proj.link} className="mt-auto mb-2">
+                  <a
+                    href={proj.link}
+                    className="mt-auto mb-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="flex w-fit items-center justify-self-center rounded-xl border-2 p-2">
                       <img
                         src="github-icon.webp"

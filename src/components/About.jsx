@@ -5,13 +5,15 @@ const About = () => {
         <div className="font-satisfy text-center text-[64px] text-[#FFFFFF]">
           About <span className="text-[#CC66FF]">Me</span>
         </div>
-        <div className="flex justify-between">
-          <img src="avatar.svg" alt="" />
-          <div className="relative mt-[43px] ml-[167px] h-[482px] w-[913px] overflow-hidden rounded-[65px] backdrop-blur-[3px]">
-            {/* Main background */}
+        <div className="flex items-center justify-between py-10">
+          <img
+            src="avatar.png"
+            alt=""
+            className="-mx-[103.425px] -my-[137.725px] scale-[0.65] rounded-full"
+          />
+          <div className="relative ml-[167px] h-[482px] w-[913px] overflow-hidden rounded-[65px] backdrop-blur-[3px]">
             <div className="absolute inset-0 bg-[#000000] opacity-[10%] shadow-[-10_10px_4px_1_rgba(0,0,0,0.25)]" />
 
-            {/* Light refraction border effect */}
             <div
               className="absolute inset-0 rounded-[65px] border-3 border-transparent bg-gradient-to-br from-white/40 via-transparent to-white/20 bg-clip-padding"
               style={{
