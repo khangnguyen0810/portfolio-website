@@ -7,10 +7,8 @@ const NavBar = () => {
   const handleAboutClick = (e) => {
     e.preventDefault();
 
-    // If not on home page, navigate there first
     if (window.location.pathname !== "/") {
       navigate("/");
-      // Wait for navigation, then scroll
       setTimeout(() => {
         document.getElementById("about")?.scrollIntoView({
           behavior: "smooth",
@@ -18,7 +16,6 @@ const NavBar = () => {
         });
       }, 100);
     } else {
-      // Already on home page, just scroll
       document.getElementById("about")?.scrollIntoView({
         behavior: "smooth",
         block: "start",
@@ -40,9 +37,9 @@ const NavBar = () => {
         <Link className="drop-shadow-lg" to="/experience">
           Experience
         </Link>
-        <a className="drop-shadow-lg" href="/projects">
-          Projects
-        </a>
+        <Link className="drop-shadow-lg" to="/projects">
+          Experience
+        </Link>
       </div>
       <ContactForm />
     </nav>

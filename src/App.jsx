@@ -9,7 +9,7 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio-website/">
       <Background>
         <Container>
           <NavBar />

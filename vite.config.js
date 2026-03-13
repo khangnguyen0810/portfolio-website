@@ -4,11 +4,11 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/portfolio-website/",
   plugins: [
     react({
       babel: {
         plugins: [["babel-plugin-react-compiler"]],
-        base: "/portfolio-website",
       },
     }),
     tailwindcss(),
