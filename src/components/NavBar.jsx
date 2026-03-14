@@ -38,7 +38,7 @@ const NavBar = () => {
           Experience
         </Link>
         <Link className="drop-shadow-lg" to="/projects">
-          Experience
+          Projects
         </Link>
       </div>
       <ContactForm />
