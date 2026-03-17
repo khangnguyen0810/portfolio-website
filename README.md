@@ -5,7 +5,7 @@ A modern, responsive, and high-performance portfolio website designed to showcas
 ---
 
 ### 🌐 Live Preview
-![Portfolio Homepage Screenshot](path/to/your/screenshot.png)
+![Portfolio Homepage Screenshot](public/portfolio.png)
 *Figure 1: High-level overview of the landing page and user interface.*
 
 ---
