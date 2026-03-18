@@ -1,18 +1,64 @@
-# React + Vite
+# Personal Portfolio Website 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and high-performance portfolio website designed to showcase my professional journey, technical skills, and featured projects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Live Preview
+![Portfolio Homepage Screenshot](public/portfolio.png)
+*Figure 1: High-level overview of the landing page and user interface.*
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tech Stack
 
-Note: This will impact Vite dev & build performances.
+This project is built with the latest web technologies to ensure speed, SEO optimization, and a smooth user experience:
 
-## Expanding the ESLint configuration
+- **Framework:** [ReactJS](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/) (for lightning-fast development and optimized production builds)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (for utility-first, responsive design)
+- **Routing:** [React Router](https://reactrouter.com/) (for seamless multi-page navigation)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+- **Project Gallery:** A curated list of my best work, including descriptions, tech stacks, and links to repositories.
+- **Experience Timeline:** A detailed breakdown of my professional and academic background.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens.
+- **Modern UI/UX:** Clean aesthetics with smooth transitions and intuitive navigation.
+
+## 📂 Project Structure
+
+- `src/components`: Reusable UI components (Navbar, Footer, Project Cards).
+- `src/pages`: Main view components (Home, About, Projects).
+- `src/assets`: Images, icons, and global styles.
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+- Node.js (v16.0 or higher)
+- npm or yarn
+
+### Installation
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/khangnguyen0810/portfolio-website.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📧 Contact
+Feel free to reach out if you have any questions or want to collaborate!
+- **GitHub:** [@khangnguyen0810](https://github.com/khangnguyen0810)
+- **LinkedIn:** [@khangnguyen](https://www.linkedin.com/in/khang-nguyen-b52172229/)
