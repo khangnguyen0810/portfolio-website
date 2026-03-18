@@ -27,6 +27,14 @@ const Project = () => {
       image: "reinforcement.jpg",
     },
     {
+      name: "Library Booking Service",
+      framework: "HTML, CSS, Javascript",
+      description:
+        "A website for managing library booking requests with an integrated Gemini function for flexible and convenient bookings.",
+      link: "https://github.com/khangnguyen0810/library-booking-service",
+      image: "library.png",
+    },
+    {
       name: "Portfolio Website",
       framework: "React.js, Tailwind.css, React-Router",
       description:

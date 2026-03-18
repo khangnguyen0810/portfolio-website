@@ -1,17 +1,17 @@
 const About = () => {
   return (
     <>
-      <div id="about" className="mt-[327px]">
+      <div id="about" className="mt-[200px] md:mt-[327px]">
         <div className="font-satisfy text-center text-[64px] text-[#FFFFFF]">
           About <span className="text-[#CC66FF]">Me</span>
         </div>
-        <div className="flex items-center justify-between py-10">
+        <div className="flex flex-col items-center justify-between py-10 md:flex-row">
           <img
             src="avatar.png"
             alt=""
-            className="-mx-[103.425px] -my-[137.725px] scale-[0.65] rounded-full"
+            className="-mx-[103.425px] scale-[0.65] rounded-full md:-my-[137.725px]"
           />
-          <div className="relative ml-[167px] h-[482px] w-[913px] overflow-hidden rounded-[65px] backdrop-blur-[3px]">
+          <div className="relative overflow-hidden rounded-[65px] py-5 backdrop-blur-[3px] md:ml-[167px] md:h-[482px] md:w-[913px] md:p-0">
             <div className="absolute inset-0 bg-[#000000] opacity-[10%] shadow-[-10_10px_4px_1_rgba(0,0,0,0.25)]" />
 
             <div

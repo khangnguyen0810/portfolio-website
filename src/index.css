@@ -8,6 +8,7 @@
   --font-sansation: "Sansation", system-ui, sans-serif;
   --font-sacramento: "Sacramento", system-ui, sans-serif;
   --font-satisfy: "Satisfy", system-ui, sans-serif;
+  --breakpoint-iphone: 26.875rem;
 }
 
 @layer base {

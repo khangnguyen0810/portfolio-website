@@ -46,14 +46,12 @@ const Experience = () => {
       <>
         {/* Year label */}
         <div
-          className={`absolute top-0 w-[302px] text-[20px] font-bold whitespace-nowrap text-[#A944FB] ${
+          className={`absolute w-[200px] translate-y-2 font-bold whitespace-nowrap text-[#A944FB] md:w-[302px] md:translate-y-0 md:text-[20px] ${
             isRight ? "right-0 text-left" : "left-0 text-right"
           }`}
           style={{ top: `${event.topOffset}px` }}
         >
-          <div className={isRight ? "absolute left-0" : "absolute right-0"}>
-            {event.year}
-          </div>
+          <div>{event.year}</div>
         </div>
 
         {/* Branch with content */}
@@ -64,7 +62,7 @@ const Experience = () => {
           {/* Left side branch */}
           {!isRight && (
             <>
-              <div className="h-px w-[302px] bg-[#A944FB]"></div>
+              <div className="h-px w-[200px] bg-[#A944FB] md:w-[302px]"></div>
               <div className="h-3 w-3 rounded-full bg-[#A944FB]"></div>
             </>
           )}
@@ -73,25 +71,25 @@ const Experience = () => {
           {isRight && (
             <>
               <div className="h-3 w-3 rounded-full bg-[#A944FB]"></div>
-              <div className="h-px w-[302px] bg-[#A944FB]"></div>
+              <div className="h-px w-[200px] bg-[#A944FB] md:w-[302px]"></div>
             </>
           )}
 
           {/* Content */}
           <div
-            className={`font-istok-web absolute top-2 text-[20px] font-bold text-white ${
+            className={`font-istok-web absolute top-2 text-[14px] font-bold text-white md:text-[20px] ${
               isRight ? "right-2" : "left-2"
             }`}
           >
             {event.title}
             <div
-              className={`absolute font-medium whitespace-nowrap text-[#7E7E7E] ${
-                isRight ? "right-0" : "left-0"
+              className={`absolute w-[200px] font-mono text-[12px] font-medium text-[#7E7E7E] md:w-[550px] md:text-[18px] ${
+                isRight ? "right-0 text-right" : "left-0 text-left"
               }`}
             >
               {event.institution}
               <div
-                className={`absolute mt-1 h-[92px] w-[550px] font-medium whitespace-normal text-[#7E7E7E] ${
+                className={`font-istok-web absolute mt-1 w-[200px] text-[10px] font-medium whitespace-normal text-[#7E7E7E] md:h-[92px] md:w-[550px] md:text-[20px] ${
                   isRight ? "right-0 text-right" : "left-0 text-left"
                 }`}
               >
@@ -109,7 +107,7 @@ const Experience = () => {
       <div className="mt-[150px] flex justify-center">
         <div className="relative">
           {/* Top dot */}
-          <div className="absolute top-0 left-1/2 h-[30px] w-[30px] -translate-x-1/2 rounded-full bg-[#A944FB]"></div>
+          <div className="absolute top-0 left-1/2 h-[20px] w-[20px] -translate-x-1/2 rounded-full bg-[#A944FB] md:h-[30px] md:w-[30px]"></div>
 
           {/* Main vertical line */}
           <div className="h-[960px] w-px bg-[#A944FB]"></div>

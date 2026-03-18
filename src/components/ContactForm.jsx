@@ -43,7 +43,7 @@ const ContactForm = () => {
     <>
       <button
         type="button"
-        className="font-istok-web flex h-[49px] w-[114px] items-center justify-center rounded-4xl bg-purple-50 font-bold text-purple-900 hover:cursor-pointer"
+        className="font-istok-web flex scale-[0.85] items-center justify-center rounded-4xl bg-purple-50 p-2 font-bold text-purple-900 hover:cursor-pointer md:scale-[1]"
         onClick={() => setIsOpen(true)}
       >
         Contact Me
